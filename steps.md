@@ -100,11 +100,11 @@
 2. Click the cluster (`dev-cluster`)
 3. Click **Create**
 4. Inside create service:
-   - Compute options: Launch type (checked)
-   - Launch type: EC2
    - Family: (select your task definition)
    - Revision: LATEST
    - Service name: `dev-service`
+   - Compute options: Launch type (checked)
+   - Launch type: EC2
    - Load balancing: Application Load Balancer
    - Load balancer: (your ALB)
    - Listener: Use existing (80:HTTP)
