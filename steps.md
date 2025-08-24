@@ -80,6 +80,7 @@
    - Default action: Use target group created
    - Then click create
 3. Inside target group setup:
+   - Choose a target type: instances
    - Name: `dev-tg`
    - Protocol/Port: HTTP:80
    - IP type: IPv4
