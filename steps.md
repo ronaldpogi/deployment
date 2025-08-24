@@ -86,6 +86,7 @@
    - IP type: IPv4
    - Health checks: `/`
    - Then click next
+4. Click Create Load balancer
 
 **Suggestions:**
 - Laravel root (`/`) may redirect or return 302/403 → create a `/health` route returning **200 OK**.
