@@ -185,3 +185,12 @@
 - Ensure `CONTAINER_NAME` in CodeBuild matches ECS container name.
 
 ---
+
+## Notes :
+**Check your LB & ECS:**
+1. If you can't access your app online/public
+2. Check your LB & ECS Security Group
+3. ELB SG: Inbound: HTTP 80, Source: 0.0.0.0/0
+4. ECS SG: Inbound: HTTP 8000, Source: ELB SG ID
+
+---
